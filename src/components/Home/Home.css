@@ -1,0 +1,26 @@
+.input__container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2.5rem;
+}
+.upload-video{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.upload-subtitles{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
